@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./CSS/output.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="relative bg-[#1a1a1a] py-3">
+        <div class="flex justify-center items-center gap-2 text-sm sm:text-base">
+            <img class="absolute top-0 opacity-20" src="./image/Group.svg" alt="">
+            <p class="text-gray-300">
+                ✨ Discover Your Dream Property with Estatein
+                <a href="#" class="underline ml-1 hover:text-white transition-colors">Learn More</a>
+            </p>
+        </div>
+        <button
+            class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 p-1 rounded-full transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+    <nav class="bg-[#1A1A1A] border border-b border-white/10 text-white py-2 sticky top-0 z-50">
+        <main class="mx-10 flex justify-between items-center">
+            <div class="flex gap-1 items-center">
+                <img class="w-8 h-8" src="./image/Symbol.svg" alt="" />
+                <h1>Estatein</h1>
+            </div>
+            <div class="flex p-3 gap-6">
+                <a class="active" href="#home">Home</a>
+                <a href="./aboutUs.html">About Us</a>
+                <a href="./properties.html">Properties</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="bg-black hover:bg-white/10 transition-all  p-2 rounded-xl">
+                <a href="./contact.html" class="text-md">Contact Us</a>
+            </div>
+        </main>
+    </nav>
+    <!-- Section 1 -->
+    <section class="flex md:flex-row flex-col justify-between items-center relative">
+        <div class="bg-[#111111] text-white p-4 flex-1 px-10">
+            <h1 class="text-5xl">
+                Dicover Your Dream <br />
+                Property with Estatein
+            </h1>
+            <p class="mt-6 text-gray-400">
+                Your journey to finding the perfect property begins here. Explore our
+                listings to find the home that matches your dreams.
+            </p>
+            <div class="mt-10 flex gap-4">
+                <button class="p-3 border border-gray-600 rounded-xl">
+                    Learn More
+                </button>
+                <button class="p-3 bg-[#703BF7] hover:bg-[#5b2edb] transition-all text-white rounded-xl">
+                    Browse Properties
+                </button>
+            </div>
+            <div class="flex gap-3 mt-10">
+                <div class="p-3 bg-[#1A1A1A] rounded-xl">
+                    <p class="text-2xl font-bold">200+</p>
+                    <p class="text-gray-400 text-sm mt-2">Happy Customers</p>
+                </div>
+                <div class="p-3 bg-[#1A1A1A] rounded-xl">
+                    <p class="text-2xl font-bold">10K+</p>
+                    <p class="text-gray-400 text-sm mt-2">Properties For Clients</p>
+                </div>
+                <div class="p-3 bg-[#1A1A1A] rounded-xl">
+                    <p class="text-2xl font-bold">16+</p>
+                    <p class="text-gray-400 text-sm mt-2">Years of Experience</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[730px] h-[620px] justify-end relative overflow-hidden pointer-events-none">
+            <img class="w-full h-full object-cover relative z-0" src="./image/building.svg" alt="Building" />
+        </div>
+        <div class="absolute right-[660px] top-36 -translate-y-1/2">
+            <!-- Circle Rotating Text -->
+            <div class="relative flex items-center justify-center">
+                <div class="w-[150px] h-[150px] relative bg-black rounded-full border border-white/20">
+                    <svg viewBox="0 0 200 200" class="w-full h-full animate-spin-slow">
+                        <defs>
+                            <path id="circlePath" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
+                        </defs>
+
+                        <text fill="white" style="font-size: 14px; font-weight: bold" class="uppercase">
+                            <textPath href="#circlePath" textLength="460" spacing="auto" startOffset="15">
+                                ✨Discover Your Dream Property
+                            </textPath>
+                        </text>
+                    </svg>
+
+                    <!-- Center Arrow -->
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div
+                            class="w-14 h-14 p-10 rounded-full bg-[#1a1a1a] border border-white/20 flex items-center justify-center">
+                            <span class="text-white text-xl">↗</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section class="flex md:flex-row flex-col px-3 gap-3 mt-3 py-3 mx-10 rounded-lg  ring-5 ring-white/10">
+        <div class="flex flex-col items-center justify-center w-[330px] h-[130px] bg-[#1a1a1a] rounded-lg relative">
+            <div>
+                <img class="w-12 h-12" src="./image/Icon_Container.svg" alt="" />
+            </div>
+            <div class="mt-3">
+                <p class="text-xs">Find Your Dream Home</p>
+            </div>
+            <div class="absolute top-3 right-3">
+                <img class="w-7 h-7" src="./image/IconArrow.svg" alt="" />
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center relative w-[330px] h-[130px] bg-[#1a1a1a] rounded-lg">
+            <div><img class="w-12 h-12" src="./image/Icon.svg" alt="" /></div>
+            <div class="mt-3">
+                <p class="text-xs">Unlock Property Value</p>
+            </div>
+            <div class="absolute top-3 right-3">
+                <img class="w-7 h-7" src="./image/IconArrow.svg" alt="" />
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center relative w-[330px] h-[130px] bg-[#1a1a1a] rounded-lg">
+            <div>
+                <img class="w-12 h-12" class="w-12 h-12" src="./image/building_icon.svg" alt="" />
+            </div>
+            <div class="mt-3">
+                <p class="text-xs">Effortless Property Management</p>
+            </div>
+            <div class="absolute top-3 right-3">
+                <img class="w-7 h-7" src="./image/IconArrow.svg" alt="" />
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center relative w-[330px] h-[130px] bg-[#1a1a1a] rounded-lg">
+            <div><img class="w-12 h-12" src="./image/sun_icon.svg" alt="" /></div>
+            <div class="mt-3">
+                <p class="text-xs">Smart Investments, Informed Decisions</p>
+            </div>
+            <div class="absolute top-3 right-3">
+                <img class="w-7 h-7" src="./image/IconArrow.svg" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- Section 3 -->
+    <section class="mx-10 mt-16">
+        <div>
+            <div>
+                <h1 class="text-3xl">Featured Properties</h1>
+                <div class="flex items-center content-center justify-between">
+                    <div class="mt-6">
+                        <p class="text-sm text-white/60">
+                            Explore our handpicked selection of featured properties. Each
+                            listing offers a glimpse into exceptional homes and investments
+                            available through <br />
+                            Estatein. Click "View Details" for more information.
+                        </p>
+                    </div>
+                    <div class="bg-[#1a1a1a] p-3 rounded-lg">
+                        <a href="" class="text-md">View All Properties</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex md:flex-row flex-col gap-6 mt-12">
+                <div class="border border-white/15 rounded-xl">
+                    <img class="p-5 w-[420px] h-[300px] object-cover rounded-[2rem]"
+                        src="./image/featured-properties/597f545bcb329f29999c8c335bec608731f34db8.png" alt="" />
+                    <h1 class="mt-6 px-5">Seaside Serenity Villa</h1>
+                    <p class="mt-3 text-xs text-white/60 px-5">
+                        A stunning 4-bedroom, 3-bathroom villa in a peaceful <br />
+                        suburban neighborhood...
+                        <span class="text-white underline">Read More</span>
+                    </p>
+                    <div class="px-5 flex gap-2 mt-6">
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/bed_icon.svg" alt="" />
+                            <p class="text-sm">4-Bedroom</p>
+                        </div>
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/bath_icon.svg" alt="" />
+                            <p class="text-sm">3-Bathroom</p>
+                        </div>
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/villa_icon.svg" alt="" />
+                            <p class="text-sm">Villa</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center px-5 mt-3 justify-between py-3 mb-3">
+                        <div>
+                            <p class="text-white/60">Price</p>
+                            <p>$550,000</p>
+                        </div>
+                        <button class="bg-[#703BF7] px-3 py-3 rounded-lg">
+                            <p class="text-sm">View Property Details</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="border border-white/15 rounded-xl">
+                    <img class="p-5 w-[420px] h-[300px] object-cover rounded-[2rem]"
+                        src="./image/featured-properties/a2b4e0260c692d688fb8fd238642558f0aee6697.png" alt="" />
+                    <h1 class="mt-6 px-5">Metropolitan Haven</h1>
+                    <p class="mt-3 text-xs text-white/60 px-5">
+                        A chic and fully-furnished 2-bedroom apartment with <br />
+                        panoramic city views...
+                        <span class="text-white underline">Read More</span>
+                    </p>
+                    <div class="px-5 flex gap-2 mt-6">
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/bed_icon.svg" alt="" />
+                            <p class="text-sm">2-Bedroom</p>
+                        </div>
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/bath_icon.svg" alt="" />
+                            <p class="text-sm">2-Bathroom</p>
+                        </div>
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/villa_icon.svg" alt="" />
+                            <p class="text-sm">Villa</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center px-5 mt-3 justify-between py-3 mb-3">
+                        <div>
+                            <p class="text-white/60">Price</p>
+                            <p>$550,000</p>
+                        </div>
+                        <button class="bg-[#703BF7] px-3 py-3 rounded-lg">
+                            <p class="text-sm">View Property Details</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="border border-white/15 rounded-xl">
+                    <img class="p-5 w-[420px] h-[300px] object-cover rounded-[2rem]"
+                        src="./image/featured-properties/788f8cf7af7e05c7ae4a90ebd4dcf750b626e1f4.png" alt="" />
+                    <h1 class="mt-6 px-5">Rustic Retreat Cottage</h1>
+                    <p class="mt-3 text-xs text-white/60 px-5">
+                        An elegant 3-bedroom, 2.5-bathroom townhouse in a <br />
+                        gated community...
+                        <span class="text-white underline">Read More</span>
+                    </p>
+                    <div class="px-5 flex gap-2 mt-6">
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/bed_icon.svg" alt="" />
+                            <p class="text-sm">3-Bedroom</p>
+                        </div>
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/bath_icon.svg" alt="" />
+                            <p class="text-sm">3-Bathroom</p>
+                        </div>
+                        <div class="flex items-center gap-1 border border-white/20 bg-white/10 px-2 py-1 rounded-2xl">
+                            <img src="./image/villa_icon.svg" alt="" />
+                            <p class="text-sm">Villa</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center px-5 mt-3 justify-between py-3 mb-3">
+                        <div>
+                            <p class="text-white/60">Price</p>
+                            <p>$550,000</p>
+                        </div>
+                        <button class="bg-[#703BF7] px-3 py-3 rounded-lg">
+                            <p class="text-sm">View Property Details</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 border border-t border-r-0 border-l-0 border-b-0 border-white/10">
+                <div class="flex justify-between mt-3">
+                    <div>
+                        <p class="text-white/60 text-sm">
+                            <span class="text-white">01 </span>of 60
+                        </p>
+                    </div>
+                    <div class="flex gap-2">
+                        <button
+                            class="border border-white/10 rounded-full p-2 w-10 h-10 flex items-center justify-center hover:bg-white/5">
+                            <img src="./image/arrow_left.svg" alt="Previous" class="w-5 h-5" />
+                        </button>
+                        <button
+                            class="bg-white/10 rounded-full p-2 w-10 h-10 flex items-center justify-center hover:bg-white/20">
+                            <img src="./image/arrow_right.svg" alt="Next" class="w-5 h-5" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 4 -->
+    <section class="mx-10 mt-16">
+        <div>
+            <h1 class="text-3xl">What Our Clients Say</h1>
+            <div class="md:flex items-center content-center justify-between">
+                <div class="mt-6">
+                    <p class="text-sm text-white/60">
+                        Read the success stories and heartfelt testimonials from our
+                        valued clients. Discover why they chose Estatein for their real
+                        estate needs.
+                    </p>
+                </div>
+                <div class="bg-[#1a1a1a] p-3 rounded-lg hover:bg-[#262626] transition-all">
+                    <a href="" class="text-md">View All Testimonials</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-6 mt-12 md:flex-row flex-col">
+            <div class="p-10 bg-[#141414] border border-white/10 rounded-lg">
+                <div class="flex gap-3">
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                </div>
+                <p class="mt-6 text-lg">Exceptional Service!</p>
+                <p class="mt-3">
+                    Our experience with Estatein was outstanding. Their team's
+                    dedication and professionalism made finding our dream home a breeze.
+                    Highly recommended!
+                </p>
+                <div class="flex gap-3 items-center mt-6">
+                    <div>
+                        <img class="w-12 h-11.5 rounded-full" src="./image/client1.png" alt="" />
+                    </div>
+                    <div>
+                        <p class="text-sm">Wade Warren</p>
+                        <p class="text-[10px] text-white/60">USA, California</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-10 bg-[#141414] border  border-white/10 rounded-lg">
+                <div class="flex gap-3">
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                </div>
+                <p class="mt-6 text-lg">Efficient and Reliable</p>
+                <p class="mt-3">Estatein provided us with top-notch service. They helped us sell our property quickly
+                    and at a great price. We couldn't be happier with the results.</p>
+                <div class="flex gap-3 items-center mt-6">
+                    <div><img class="w-12 h-11.5 rounded-full" src="./image/client2.png" alt=""></div>
+                    <div>
+                        <p class="text-sm">Emelie Thomson</p>
+                        <p class="text-[10px] text-white/60">USA, Florida</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-10 bg-[#141414] border   border-white/10 rounded-lg">
+                <div class="flex gap-3">
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                    <img class="p-2 rounded-full bg-[#1a1a1a]" src="./image/Shape.svg" alt="" />
+                </div>
+                <p class="mt-6 text-lg">Trusted Advisors</p>
+                <p class="mt-3">The Estatein team guided us through the entire buying process. Their knowledge and
+                    commitment to our needs were impressive. Thank you for your support!</p>
+                <div class="flex gap-3 items-center mt-6">
+                    <div><img class="w-12 h-11.5 rounded-full" src="./image/client3.png" alt=""></div>
+                    <div>
+                        <p class="text-sm">John Mans</p>
+                        <p class="text-[10px] text-white/60">USA, Nevada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 border border-t border-r-0 border-l-0 border-b-0 border-white/10">
+            <div class="flex justify-between mt-3">
+                <div>
+                    <p class="text-white/60 text-sm">
+                        <span class="text-white">01 </span>of 10
+                    </p>
+                </div>
+                <div class="flex gap-2">
+                    <button
+                        class="border border-white/10 rounded-full p-2 w-10 h-10 flex items-center justify-center hover:bg-white/5">
+                        <img src="./image/arrow_left.svg" alt="Previous" class="w-5 h-5" />
+                    </button>
+                    <button
+                        class="bg-white/10 rounded-full p-2 w-10 h-10 flex items-center justify-center hover:bg-white/20">
+                        <img src="./image/arrow_right.svg" alt="Next" class="w-5 h-5" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 5 -->
+    <section class="mx-10 mt-24 ">
+        <div class="relative">
+            <div class="flex items-end justify-between">
+                <div class="max-w-3xl">
+                    <h2 class="text-3xl font-semibold text-white">Frequently Asked Questions</h2>
+                    <p class="mt-4 text-sm text-white/60 ">
+                        Find answers to common questions about Estatein's services, property listings, and the real
+                        estate process.
+                        We're here to provide clarity and assist you every step of the way.
+                    </p>
+                </div>
+                <div class="hidden md:block">
+                    <a href="#"
+                        class="bg-[#1a1a1a] border border-white/10 px-5 py-3 rounded-lg text-sm hover:bg-[#262626] transition-colors ">
+                        View All FAQ’s
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col gap-6 mt-12">
+
+            <div class="p-10 bg-[#141414] border border-white/10 rounded-xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-medium text-white">How do I search for properties on Estatein?</h3>
+                    <p class="mt-4 text-sm text-white/60 ">
+                        Learn how to use our user-friendly search tools to find properties that match your criteria.
+                    </p>
+                </div>
+                <div class="mt-8">
+                    <a href="#"
+                        class="inline-block bg-[#1a1a1a] border border-white/10 px-6 py-3 rounded-lg text-sm hover:bg-[#262626] transition-all">
+                        Read More
+                    </a>
+                </div>
+            </div>
+
+            <div class="p-10 bg-[#141414] border border-white/10 rounded-xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-medium text-white">What documents do I need to sell my property through
+                        Estatein?</h3>
+                    <p class="mt-4 text-sm text-white/60 ">
+                        Find out about the necessary documentation for listing your property with us.
+                    </p>
+                </div>
+                <div class="mt-8">
+                    <a href="#"
+                        class="inline-block bg-[#1a1a1a] border border-white/10 px-6 py-3 rounded-lg text-sm hover:bg-[#262626] transition-all">
+                        Read More
+                    </a>
+                </div>
+            </div>
+
+            <div class="p-10 bg-[#141414] border border-white/10 rounded-xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-medium text-white">How can I contact an Estatein agent?</h3>
+                    <p class="mt-4 text-sm text-white/60 ">
+                        Discover the different ways you can get in touch with our experienced agents.
+                    </p>
+                </div>
+                <div class="mt-8">
+                    <a href="#"
+                        class="inline-block bg-[#1a1a1a] border border-white/10 px-6 py-3 rounded-lg text-sm hover:bg-[#262626] transition-all">
+                        Read More
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-10 border-t border-white/10 pt-4 flex justify-between items-center">
+            <div>
+                <p class="text-white/60 text-sm">
+                    <span class="text-white">01 </span>of 10
+                </p>
+            </div>
+            <div class="flex gap-2">
+                <button
+                    class="border border-white/10 rounded-full p-2 w-10 h-10 flex items-center justify-center hover:bg-white/5">
+                    <img src="./image/arrow_left.svg" alt="Previous" class="w-5 h-5" />
+                </button>
+                <button
+                    class="bg-white/10 rounded-full p-2 w-10 h-10 flex items-center justify-center hover:bg-white/20">
+                    <img src="./image/arrow_right.svg" alt="Next" class="w-5 h-5" />
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Section 6 -->
+    <section class="relative overflow-hidden border-y border-white/10 py-20 px-10 mt-16">
+        <img src="./image/left.svg"
+            class="absolute left-0 top-0 h-full w-auto object-cover opacity-6 pointer-events-none"
+            style="filter: brightness(0) invert(1);" alt="">
+
+        <img src="./image/right.svg"
+            class="absolute right-0 top-0 h-full w-auto object-cover opacity-6 pointer-events-none"
+            style="filter: brightness(0) invert(1);" alt="">
+        <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="max-w-4xl">
+                <h2 class="text-4xl font-bold text-white">Start Your Real Estate Journey Today</h2>
+                <p class="mt-4 text-white/60 text-sm leading-relaxed">
+                    Your dream property is just a click away. Whether you're looking for a new home, a strategic
+                    investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take
+                    the first step towards your real estate goals and explore our available properties or get in touch
+                    with our team for personalized assistance.
+                </p>
+            </div>
+            <div>
+                <a href="#"
+                    class="bg-[#703BF7] text-white px-6 py-4 rounded-lg text-sm font-medium  hover:bg-[#5b2edb] transition-colors">
+                    Explore Properties
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[#111111]  pt-20 pb-10 px-10">
+        <div class="flex gap-10 md:flex-row flex-col justify-between">
+            <div class="">
+                <div class="flex  items-center gap-2 mb-6">
+                    <img src="./image/Symbol.svg" alt="Estatein Logo" class="w-8 h-8">
+                    <span class="text-white font-bold text-xl">Estatein</span>
+                </div>
+                <div class="relative flex items-center max-w-md border border-white/10 rounded-lg bg-[#131313] p-3">
+                    <img class="ml-2 w-5 h-5 " src="./image/mail.svg" alt="">
+                    <input class="bg-transparent border-none outline-none text-white text-sm w-full px-3" type="email"
+                        placeholder="Enter Your Email">
+                    <button type="submit">
+                        <img src="./image/send.svg" alt="send">
+                    </button>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-white/50 text-md mb-4">Home</h3>
+                <ul class="text-white text-sm space-y-3">
+                    <li class="text-sm"><a href="">Hero Section</a></li>
+                    <li class="text-sm"><a href="">Features</a></li>
+                    <li class="text-sm"><a href="">Properties</a></li>
+                    <li class="text-sm"><a href="">Testimonials</a></li>
+                    <li class="text-sm"><a href="">FAQ’s</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white/50 text-md mb-4">About Us</h3>
+                <ul class="text-white text-sm space-y-3">
+                    <li class="text-sm"><a href="">Our Story</a></li>
+                    <li class="text-sm"><a href="">Our Works</a></li>
+                    <li class="text-sm"><a href="">How It Works</a></li>
+                    <li class="text-sm"><a href="">Our Team</a></li>
+                    <li class="text-sm"><a href="">Our Clients</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white/50 text-md mb-4">Properties</h3>
+                <ul class="text-white text-sm space-y-3">
+                    <li class="text-sm"><a href="">Portfolio</a></li>
+                    <li class="text-sm"><a href="">Categories</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white/50 text-md mb-4">Services</h3>
+                <ul class="text-white text-sm space-y-3">
+                    <li class="text-sm"><a href="">Valuation Mastery</a></li>
+                    <li class="text-sm"><a href="">Strategic Marketing</a></li>
+                    <li class="text-sm"><a href="">Negotiation Wizardry</a></li>
+                    <li class="text-sm"><a href="">Closing Success</a></li>
+                    <li class="text-sm"><a href="">Property Management</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white/50 text-md mb-4">Contact US</h3>
+                <ul class="text-white space-y-3">
+                    <li class="text-sm"><a href="">Contact Form</a></li>
+                    <li class="text-sm"><a href="">Our Offices</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <div class=" flex justify-between items-center bg-[#1a1a1a] px-10 py-3">
+        <div class="flex gap-6 text-sm">
+            <p>@2026 Estatein. All Rights Reserved.</p>
+            <a href="">Terms & Conditions</a>
+        </div>
+        <div class="flex items-center gap-6">
+            <a class="bg-[#131313] p-3 rounded-full" href="">
+                <img class="w-5 h-5" src="./image/fb.svg" alt="">
+            </a>
+            <a class="bg-[#131313] p-3 rounded-full" href="">
+                <img src="./image/linkedin.svg" alt="">
+            </a>
+            <a class="bg-[#131313] p-3 rounded-full" href="">
+                <img src="./image/twitter.svg" alt="">
+            </a>
+            <a class="bg-[#131313] p-3 rounded-full" href="">
+                <img src="./image/yt.svg" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
