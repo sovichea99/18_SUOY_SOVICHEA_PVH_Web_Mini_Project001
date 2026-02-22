@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx @tailwindcss/cli -i input.css -o output.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./CSS/input.css -o ./CSS/output.css --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
